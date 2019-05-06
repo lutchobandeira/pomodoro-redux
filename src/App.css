@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -17,6 +18,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+#circle-wrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle {
+  width: 400px;
 }
 
 .App-link {
